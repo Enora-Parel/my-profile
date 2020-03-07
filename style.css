@@ -1,0 +1,118 @@
+head {
+	text-align: center;
+}
+
+body {
+	background-color: #81d6e3;
+	color: #5398BE; 
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+
+h1 {
+	color: #29339B;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 10px;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 30px;
+}
+
+#img-padding{
+	padding: 10px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+h2 {
+	color:#2b4aa0;
+	font-family: 'Bree Serif', serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	font-family:'Crimson Text',serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #81D6E3;
+	font-weight: Bold;
+}
+
+a:hover {
+	color: #29339B;
+}
+
+.btn-blue {
+	background-color: #81D6E3;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px; 
+}
+
+.btn-blue:hover {
+	background-color:  #29339B;
+	color: white;
+}
+
+.container {
+	background: #a5f6ff;
+	padding: 60px;
+	margin : 50px 10px;
+	width: auto;
+	box-shadow: 0px 10px 30px;
+	border-radius: 4px; 
+	}
+
+@media (max-width: 760px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-lighter {
+	background: white;
+	padding: 100px;
+	margin : 50px;
+	box-shadow: 10px 10px 30px;
+	border-radius: 4px 
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#police-bigger {
+	font-size: 50px;
+}
+
+
+
